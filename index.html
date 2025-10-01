@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kamllhm25 • Instagram Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" type="image/png">
+    <style>
+        .font-grand-hotel {
+            font-family: 'Grand Hotel', cursive;
+        }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+
+<body class="bg-stone-50 text-zinc-800 text-[14px]">
+
+    <div class="flex">
+
+        <aside class="fixed left-0 top-0 h-full w-[244px] border-r border-stone-300 bg-white px-3 py-5 hidden lg:flex flex-col">
+            <a href="#" class="font-grand-hotel text-3xl pl-3 pt-4 pb-8">Instagram</a>
+            <nav class="flex flex-col gap-2">
+                <a href="#" class="flex items-center gap-4 p-3 rounded-lg hover:bg-stone-100 transition-colors">
+                    <i class="fas fa-home text-2xl w-7"></i><span class="text-base">Beranda</span>
+                </a>
+                <a href="#" class="flex items-center gap-4 p-3 rounded-lg hover:bg-stone-100 transition-colors">
+                    <i class="fas fa-search text-2xl w-7"></i><span class="text-base">Cari</span>
+                </a>
+                <a href="#" class="flex items-center gap-4 p-3 rounded-lg hover:bg-stone-100 transition-colors">
+                    <i class="far fa-compass text-2xl w-7"></i><span class="text-base">Jelajahi</span>
+                </a>
+                <a href="#" class="flex items-center gap-4 p-3 rounded-lg hover:bg-stone-100 transition-colors">
+                    <i class="fa-solid fa-clapperboard text-2xl w-7"></i><span class="text-base">Reels</span>
+                </a>
+                <a href="#" class="flex items-center gap-4 p-3 rounded-lg hover:bg-stone-100 transition-colors">
+                    <i class="far fa-paper-plane text-2xl w-7"></i><span class="text-base">Pesan</span>
+                </a>
+                <a href="#" class="flex items-center gap-4 p-3 rounded-lg hover:bg-stone-100 transition-colors">
+                    <i class="far fa-heart text-2xl w-7"></i><span class="text-base">Notifikasi</span>
+                </a>
+                <a href="#" class="flex items-center gap-4 p-3 rounded-lg hover:bg-stone-100 transition-colors">
+                    <i class="far fa-plus-square text-2xl w-7"></i><span class="text-base">Buat</span>
+                </a>
+                <a href="#" class="flex items-center gap-4 p-3 rounded-lg hover:bg-stone-100 font-bold transition-colors">
+                    <img src="assets/img/fotoprofil.jpg" alt="Foto Profil" class="w-7 h-7 rounded-full object-cover"><span class="text-base">Profil</span>
+                </a>
+            </nav>
+            <div class="mt-auto">
+                <a href="#" class="flex items-center gap-4 p-3 rounded-lg hover:bg-stone-100 transition-colors">
+                    <i class="fa-solid fa-bars text-2xl w-7"></i><span class="text-base">Lainnya</span>
+                </a>
+            </div>
+        </aside>
+
+        <main class="w-full lg:ml-[244px]">
+        
+            <nav class="fixed top-0 z-10 w-full border-b border-stone-300 bg-white px-4 py-2 flex justify-between items-center lg:hidden h-[57px]">
+                <a href="#"><i class="fas fa-cog text-xl"></i></a>
+                <h1 class="font-semibold text-base">kamllhm25 <i class="fas fa-chevron-down fa-xs"></i></h1>
+                <a href="#"><i class="far fa-plus-square text-2xl"></i></a>
+            </nav>
+            
+            <div class="pt-[56px] lg:pt-0">
+                <div class="max-w-5xl mx-auto px-0 sm:px-4 md:px-8 py-4 sm:py-8">
+                    <header class="grid grid-cols-3 sm:grid-cols-3 gap-4 md:gap-8 items-center mb-4 px-4 sm:px-0">
+                        <div class="col-span-1 flex justify-center">
+                            <img src="assets/img/fotoprofil.jpg" alt="Foto Profil" class="w-[90px] h-[90px] sm:w-[150px] sm:h-[150px] rounded-full object-cover">
+                        </div>
+
+                        <div class="col-span-2">
+                             <div class="flex items-center gap-4 mb-3">
+                                <h2 class="text-xl font-light flex items-center gap-2">
+                                    <span>kamllhm25</span>
+                                    <img class="w-6 h-6" src="assets/img/centang biru.png" alt="Verified Badge">
+                                    <a href="#" class="block sm:hidden"><i class="fas fa-cog text-xl"></i></a>
+                                </h2>
+                                
+                                <div class="hidden sm:flex items-center gap-2">
+                                    <button class="bg-stone-200 hover:bg-stone-300 font-semibold px-4 py-[7px] text-[14px] rounded-lg">Edit Profile</button>
+                                    <button class="bg-stone-200 hover:bg-stone-300 font-semibold px-4 py-[7px] text-[14px] rounded-lg">Lihat Arsip</button>
+                                    <a href="#"><i class="fas fa-cog text-lg"></i></a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex sm:hidden gap-2 mt-3 mb-4">
+                                <button class="flex bg-stone-200 hover:bg-stone-300 font-semibold py-[7px] text-[14px] p-3 rounded-lg">Edit Profile</button>
+                                <button class="flex bg-stone-200 hover:bg-stone-300 font-semibold py-[7px] text-[14px] p-3 rounded-lg">Lihat Arsip</button>
+                            </div>
+
+                            <div class="hidden sm:flex items-center gap-8 mb-3">
+                                <p class="text-base"><span class="font-semibold">12</span> kiriman</p>
+                                <p class="text-base"><span class="font-semibold">254 rb</span> pengikut</p>
+                                <p class="text-base"><span class="font-semibold">0</span> diikuti</p>
+                            </div>
+
+                            <div class="hidden sm:block text-sm">
+                                <p class="font-semibold">Kamal Ilham</p>
+                                <p class="text-stone-500">Personal blog</p>
+                                <p>2411102441015</p>
+                                <a href="http://www.linkedin.com/in/kamal-ilham-780193387" target="_blank" class="font-semibold text-blue-900">linkedin.com/kamalIlham</a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-span-3 sm:hidden text-sm px-0">
+                            <p class="font-semibold">Kamal Ilham</p>
+                            <p class="text-stone-500">Personal blog</p>
+                            <p>2411102441015</p>
+                            <a href="http://www.linkedin.com/in/kamal-ilham-780193387" target="_blank" class="font-semibold text-blue-900">linkedin.com/kamalIlham</a>
+                        </div>
+                    </header>
+
+                    <section class="mb-4 sm:my-8">
+                        <div class="flex gap-5 overflow-x-auto no-scrollbar py-1 sm:px-2">
+                            <div class="text-center flex-shrink-0">
+                                <div class="w-[80px] h-[80px] rounded-full bg-white flex items-center justify-center ring-1 ring-stone-300"><img src="assets/img/highlight1.jpg" class="w-[74px] h-[74px] rounded-full object-cover" alt="Highlight 1"></div>
+                                <span class="text-xs font-semibold mt-1 block">Sea</span>
+                            </div>
+                            <div class="text-center flex-shrink-0">
+                                <div class="w-[80px] h-[80px] rounded-full bg-white flex items-center justify-center ring-1 ring-stone-300"><img src="assets/img/highlight2.jpg" class="w-[74px] h-[74px] rounded-full object-cover" alt="Highlight 2"></div>
+                                <span class="text-xs font-semibold mt-1 block">Sunset</span>
+                            </div>
+                            <div class="text-center flex-shrink-0">
+                                <div class="w-[80px] h-[80px] rounded-full bg-white flex items-center justify-center ring-1 ring-stone-300"><img src="assets/img/highlight3.jpg" class="w-[74px] h-[74px] rounded-full object-cover" alt="Highlight 3"></div>
+                                <span class="text-xs font-semibold mt-1 block">Moon</span>
+                            </div>
+                            <div class="text-center flex-shrink-0">
+                                <div class="w-[80px] h-[80px] rounded-full bg-white flex items-center justify-center ring-1 ring-stone-300"><img src="assets/img/highlight4.jpg" class="w-[74px] h-[74px] rounded-full object-cover" alt="Highlight 4"></div>
+                                <span class="text-xs font-semibold mt-1 block">Mount</span>
+                            </div>
+                            <div class="text-center flex-shrink-0">
+                                <div class="w-[80px] h-[80px] rounded-full bg-white flex items-center justify-center ring-1 ring-stone-300"><img src="assets/img/highlight5.jpeg" class="w-[74px] h-[74px] rounded-full object-cover" alt="Highlight 5"></div>
+                                <span class="text-xs font-semibold mt-1 block">Food</span>
+                            </div>
+                            <div class="text-center flex-shrink-0">
+                                <div class="w-[80px] h-[80px] rounded-full bg-white flex items-center justify-center ring-1 ring-stone-300"><img src="assets/img/highlight6.jpg" class="w-[74px] h-[74px] rounded-full object-cover" alt="Highlight 6"></div>
+                                <span class="text-xs font-semibold mt-1 block">School</span>
+                            </div>
+                            <div class="text-center flex-shrink-0">
+                                <div class="w-[80px] h-[80px] rounded-full bg-white flex items-center justify-center ring-1 ring-stone-300"><img src="assets/img/h3.jpg" class="w-[74px] h-[74px] rounded-full object-cover" alt="Highlight 7"></div>
+                                <span class="text-xs font-semibold mt-1 block">Baru</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <div class="border-y border-stone-300 text-sm text-center flex justify-around py-3 sm:hidden">
+                        <div>
+                            <p class="font-semibold">12</p>
+                            <p class="text-stone-500">kiriman</p>
+                        </div>
+                        <div>
+                            <p class="font-semibold">254 rb</p>
+                            <p class="text-stone-500">pengikut</p>
+                        </div>
+                        <div>
+                            <p class="font-semibold">0</p>
+                            <p class="text-stone-500">diikuti</p>
+                        </div>
+                    </div>
+                    
+                    <div class="border-t border-stone-300 flex justify-around text-stone-500">
+                        <a href="#" class="flex-1 text-center h-[52px] flex justify-center items-center border-t-2 border-zinc-800 text-zinc-800 -mt-px">
+                            <i class="fas fa-table-cells text-lg sm:text-sm"></i>
+                        </a>
+                        <a href="#" class="flex-1 text-center h-[52px] flex justify-center items-center">
+                            <i class="fa-solid fa-film text-lg sm:text-sm"></i>
+                        </a>
+                        <a href="#" class="flex-1 text-center h-[52px] flex justify-center items-center">
+                            <i class="far fa-bookmark text-lg sm:text-sm"></i>
+                        </a>
+                        <a href="#" class="flex-1 text-center h-[52px] flex justify-center items-center">
+                            <i class="fas fa-user-tag text-lg sm:text-sm"></i>
+                        </a>
+                    </div>
+
+                    <div class="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-1 lg:grid-cols-4">
+                        <div class="relative group"><img src="assets/img/gambar1.jpg" class="aspect-square w-full object-cover" alt="Post 1"><div class="absolute inset-0 bg-black/30 hidden group-hover:flex items-center justify-center gap-6 text-white font-semibold"><span><i class="fas fa-heart"></i> 1,253</span><span class="ml-4"><i class="fas fa-comment"></i> 42</span></div></div>
+                        <div class="relative group"><img src="assets/img/gambar2.jpg" class="aspect-square w-full object-cover" alt="Post 2"><div class="absolute inset-0 bg-black/30 hidden group-hover:flex items-center justify-center gap-6 text-white font-semibold"><span><i class="fas fa-heart"></i> 874</span><span class="ml-4"><i class="fas fa-comment"></i> 19</span></div></div>
+                        <div class="relative group"><img src="assets/img/gambar3.jpg" class="aspect-square w-full object-cover" alt="Post 3"><div class="absolute inset-0 bg-black/30 hidden group-hover:flex items-center justify-center gap-6 text-white font-semibold"><span><i class="fas fa-heart"></i> 2,106</span><span class="ml-4"><i class="fas fa-comment"></i> 112</span></div></div>
+                        <div class="relative group"><img src="assets/img/gambar4.jpg" class="aspect-square w-full object-cover" alt="Post 4"><div class="absolute inset-0 bg-black/30 hidden group-hover:flex items-center justify-center gap-6 text-white font-semibold"><span><i class="fas fa-heart"></i> 950</span><span class="ml-4"><i class="fas fa-comment"></i> 33</span></div></div>
+                        <div class="relative group"><img src="assets/img/gambar5.jpg" class="aspect-square w-full object-cover" alt="Post 5"><div class="absolute inset-0 bg-black/30 hidden group-hover:flex items-center justify-center gap-6 text-white font-semibold"><span><i class="fas fa-heart"></i> 1,542</span><span class="ml-4"><i class="fas fa-comment"></i> 88</span></div></div>
+                        <div class="relative group"><img src="assets/img/gambar6.jpg" class="aspect-square w-full object-cover" alt="Post 6"><div class="absolute inset-0 bg-black/30 hidden group-hover:flex items-center justify-center gap-6 text-white font-semibold"><span><i class="fas fa-heart"></i> 731</span><span class="ml-4"><i class="fas fa-comment"></i> 21</span></div></div>
+                        <div class="relative group"><img src="assets/img/gambar7.jpg" class="aspect-square w-full object-cover" alt="Post 7"><div class="absolute inset-0 bg-black/30 hidden group-hover:flex items-center justify-center gap-6 text-white font-semibold"><span><i class="fas fa-heart"></i> 1,899</span><span class="ml-4"><i class="fas fa-comment"></i> 97</span></div></div>
+                        <div class="relative group"><img src="assets/img/gambar8.jpg" class="aspect-square w-full object-cover" alt="Post 8"><div class="absolute inset-0 bg-black/30 hidden group-hover:flex items-center justify-center gap-6 text-white font-semibold"><span><i class="fas fa-heart"></i> 643</span><span class="ml-4"><i class="fas fa-comment"></i> 15</span></div></div>
+                        <div class="relative group"><img src="assets/img/gambar9.jpg" class="aspect-square w-full object-cover" alt="Post 9"><div class="absolute inset-0 bg-black/30 hidden group-hover:flex items-center justify-center gap-6 text-white font-semibold"><span><i class="fas fa-heart"></i> 2,456</span><span class="ml-4"><i class="fas fa-comment"></i> 201</span></div></div>
+                        <div class="relative group"><img src="assets/img/gambar 10.jpg" class="aspect-square w-full object-cover" alt="Post 10"><div class="absolute inset-0 bg-black/30 hidden group-hover:flex items-center justify-center gap-6 text-white font-semibold"><span><i class="fas fa-heart"></i> 2,456</span><span class="ml-4"><i class="fas fa-comment"></i> 201</span></div></div>
+                        <div class="relative group"><img src="assets/img/gambar 11.jpg" class="aspect-square w-full object-cover" alt="Post 11"><div class="absolute inset-0 bg-black/30 hidden group-hover:flex items-center justify-center gap-6 text-white font-semibold"><span><i class="fas fa-heart"></i> 2,456</span><span class="ml-4"><i class="fas fa-comment"></i> 201</span></div></div>
+                        <div class="relative group"><img src="assets/img/gambar12.jpg" class="aspect-square w-full object-cover" alt="Post 12"><div class="absolute inset-0 bg-black/30 hidden group-hover:flex items-center justify-center gap-6 text-white font-semibold"><span><i class="fas fa-heart"></i> 2,456</span><span class="ml-4"><i class="fas fa-comment"></i> 201</span></div></div>
+                    </div>
+                </div>
+
+                <footer class="text-center text-xs text-stone-500 my-10 px-4">
+                    <div class="flex flex-wrap justify-center gap-x-3 gap-y-1 mb-3">
+                        <a href="#" class="hover:underline">Meta</a>
+                        <a href="#" class="hover:underline">Tentang</a>
+                        <a href="#" class="hover:underline">Blog</a>
+                        <a href="#" class="hover:underline">Pekerjaan</a>
+                        <a href="#" class="hover:underline">Bantuan</a>
+                        <a href="#" class="hover:underline">API</a>
+                        <a href="#" class="hover:underline">Privasi</a>
+                        <a href="#" class="hover:underline">Ketentuan</a>
+                        <a href="#" class="hover:underline">Lokasi</a>
+                        <a href="#" class="hover:underline">Instagram Lite</a>
+                        <a href="#" class="hover:underline">Threads</a>
+                        <a href="#" class="hover:underline">Verifikasi Meta</a>
+                    </div>
+                    <div class="flex flex-wrap justify-center gap-x-3 gap-y-1">
+                        <span>Bahasa Indonesia</span>
+                        <span>© 2025 Instagram from Meta</span>
+                    </div>
+                </footer>
+            </div>
+            
+            <nav class="fixed bottom-0 z-10 w-full border-t border-stone-300 bg-white px-4 h-[57px] flex justify-around items-center lg:hidden">
+                <a href="#"><i class="fas fa-home text-2xl"></i></a>
+                <a href="#"><i class="fas fa-search text-2xl"></i></a>
+                <a href="#"><i class="far fa-plus-square text-2xl"></i></a>
+                <a href="#"><i class="fa-solid fa-clapperboard text-2xl"></i></a>
+                <a href="#"><i class="fas fa-paper-plane text-2xl"></i></a>
+                <a href="#"><img src="assets/img/fotoprofil.jpg" class="w-6 h-6 rounded-full" alt="Profil"></a>
+            </nav>
+
+        </main>
+    </div>
+
+    <a href="#" class="fixed z-50 right-8 bottom-20 lg:bottom-6 flex items-center justify-center w-14 h-14 lg:w-auto lg:h-auto rounded-full bg-white shadow-lg transition-all hover:scale-110 lg:gap-3 lg:px-4 lg:py-2">
+        <i class="fa-brands fa-facebook-messenger text-2xl text-zinc-800"></i>
+        <span class="font-semibold text-zinc-800 text-base hidden lg:inline">Pesan</span>
+    </a>
+    </body>
+</html>
