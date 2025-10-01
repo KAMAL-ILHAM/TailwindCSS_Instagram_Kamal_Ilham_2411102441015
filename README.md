@@ -44,7 +44,7 @@ Proyek ini adalah upaya untuk mereplikasi antarmuka pengguna (UI) halaman profil
 
 ## Penjelasan Desain
 
-### Replikasi UI Instagram 📸
+### Replikasi UI Instagram 
 
 Desain ini berfokus pada meniru tampilan dan nuansa halaman profil Instagram, khususnya pada bagian tata letak profil, statistik, Sorotan (Highlights), dan grid postingan.
 
