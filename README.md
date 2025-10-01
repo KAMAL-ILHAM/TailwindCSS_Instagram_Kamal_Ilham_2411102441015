@@ -36,7 +36,7 @@ Ini adalah pilihan antara kecepatan dan kerapian kode jangka panjang.
 
 **Solusi Terbaik:** Gunakan **pendekatan hybrid**. Pakai *utility classes* untuk layout dan styling unik, lalu buat *component class* (`@apply`) untuk elemen yang sering digunakan berulang kali seperti tombol atau kartu.
 
-# Clone Profil Instagram dengan Tailwind CSS
+# Profil Instagram dengan Tailwind CSS
 
 Proyek ini adalah upaya untuk mereplikasi antarmuka pengguna (UI) halaman profil Instagram (versi desktop dan mobile) menggunakan **Tailwind CSS**.
 
